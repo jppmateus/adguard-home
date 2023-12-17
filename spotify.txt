@@ -768,6 +768,7 @@ block # media match
 0.0.0.0 heads-akp.spotify.com.edgesuite.net         # triggers audio ads (should be blocked)
 0.0.0.0 heads4-ak.spotify.com.edgesuite.net         # triggers audio ads (should be blocked)
 0.0.0.0 heads4-akp.spotify.com.edgesuite.net        # triggers audio ads (should be blocked)
+0.0.0.0 gew1-spclient.spotify.com
 
 0.0.0.0 event.spotxchange.com                       # trigger ads, links to ams01.event.spotxchange.com (should be blocked)
 0.0.0.0 search.spotxchange.com                      # search ads, links to ams01.event.spotxchange.com (should be blocked)
