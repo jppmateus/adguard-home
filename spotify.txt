@@ -11,7 +11,6 @@
 0.0.0.0 analytics.spotify.com
 0.0.0.0 assets.spotify.com
 0.0.0.0 audio-cf.spotify.com
-0.0.0.0 audio-fa.scdn.co # do not block while using chromecast
 0.0.0.0 audio-fa.spotify.com
 0.0.0.0 audio-fab.spotify.com
 0.0.0.0 audio-fac-spotify.com
