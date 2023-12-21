@@ -14,7 +14,7 @@
 0.0.0.0 audio-fa.spotify.com
 0.0.0.0 audio-fab.spotify.com
 0.0.0.0 audio-fac-spotify.com
-0.0.0.0 audio-fa.scdn.co
+# 0.0.0.0 audio-fa.scdn.co
 0.0.0.0 audio-gc.scdn.co
 0.0.0.0 audio-gc.spotify.com
 0.0.0.0 crashdump.spotify.com
@@ -22,7 +22,7 @@
 0.0.0.0 heads-ak.spotify.com
 0.0.0.0 heads-akp.spotify.com
 0.0.0.0 heads-cf.spotify.com
-0.0.0.0 heads-fa.scdn.co
+# 0.0.0.0 heads-fa.scdn.co
 0.0.0.0 heads-fa.spotify.com
 0.0.0.0 heads-fab.spotify.com
 0.0.0.0 heads-fac.spotify.com
@@ -37,7 +37,7 @@
 0.0.0.0 pixel.spotify.com
 0.0.0.0 upgrade.scdn.co # optional
 0.0.0.0 upgrade.spotify.com # optional
-0.0.0.0 video-fa.scdn.co
+# 0.0.0.0 video-fa.scdn.co
 0.0.0.0 video-fa.cdn.spotify.com
 0.0.0.0 video-fa-b.cdn.spotify.com
 
@@ -733,7 +733,7 @@ block # media match
 0.0.0.0 prod.spotify.map.fastly.net                 # ip geo dependent, links to beta.spotify.map.fastly.net (should be blocked)
 0.0.0.0 prod.spotify.map.fastlylb.net               # ip geo dependent, links to beta.spotify.map.fastly.net (should be blocked)
 0.0.0.0 upsell.scdn.co                              # upgrade ads (should be blocked), links to beta.spotify.map.fastly.net
-0.0.0.0 video-fa.scdn.co                            # video, links to beta.spotify.map.fastly.net (should be blocked)
+# 0.0.0.0 video-fa.scdn.co                          # video, links to beta.spotify.map.fastly.net (should be blocked)
 0.0.0.0 video-fa.cdn.spotify.com                    # video, links to beta.spotify.map.fastly.net (should be blocked)
 0.0.0.0 video-fa-b.cdn.spotify.com                  # video, links to beta.spotify.map.fastly.net (should be blocked)
 0.0.0.0 links.spotify.com                           # links to links.iterable.com (shoud be blocked)
@@ -1016,7 +1016,7 @@ block # media match
 
 # fastly advertisements
 0.0.0.0 ads-akp.spotify.com
-0.0.0.0 heads-fa.scdn.co                            # should trigger ads (should be blocked, links to beta.spotify.map.fastly.net
+# 0.0.0.0 heads-fa.scdn.co                          # should trigger ads (should be blocked, links to beta.spotify.map.fastly.net
 0.0.0.0 heads-fa.spotify.com                        # should trigger ads (should be blocked)
 0.0.0.0 heads-fab.spotify.com                       # should trigger ads (should be blocked)
 0.0.0.0 heads-fac.spotify.com                       # should trigger ads (should be blocked)
